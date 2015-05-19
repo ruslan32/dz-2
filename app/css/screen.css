@@ -354,12 +354,11 @@
 
 .footer {
   background: url(../img/footer-bg.png) repeat #6b459a;
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-top: 60px; }
 
 .footer-wraper {
   width: 1000px;
-  height: 239px;
+  height: 180px;
   margin: 0 auto;
   position: relative; }
 
