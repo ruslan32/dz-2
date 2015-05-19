@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'ElektraMediumPro-Italic';
   src: url("../fonts/ElektraMediumPro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/ElektraMediumPro-Italic.otf") format("opentype"), url("../fonts/ElektraMediumPro-Italic.woff") format("woff"), url("../fonts/ElektraMediumPro-Italic.ttf") format("truetype"), url("../fonts/ElektraMediumPro-Italic.svg#ElektraMediumPro-Italic") format("svg");
@@ -25,7 +26,18 @@
 .wraper {
   width: 1000px;
   margin: 0 auto;
-  padding-top: 38px; }
+  padding-top: 38px;
+  position: relative;
+  min-height: 100%;
+  min-width: 1010px;
+  /* обязательно указать минимальную ширину примерно на 10 пикселей шире контейнера*/
+  height: auto !important;
+  overflow: hidden; }
+
+.wraper:after {
+  content: "";
+  height: 239px;
+  display: block; }
 
 .left-column {
   float: left;
@@ -293,13 +305,13 @@
   width: 205px;
   min-height: 204px; }
 
-.two__img {
+.two__pic {
   display: inline-block;
   width: 82px;
   height: 90px;
   position: relative; }
 
-.img {
+.pic__img {
   display: block;
   position: absolute;
   top: 0;
@@ -347,6 +359,7 @@
 
 .footer-wraper {
   width: 1000px;
+  height: 239px;
   margin: 0 auto;
   position: relative; }
 

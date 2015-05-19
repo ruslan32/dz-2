@@ -10,6 +10,16 @@ $color:#5c7b98;
   width: 1000px;
   margin: 0 auto;
   padding-top: 38px;
+  position: relative;
+  min-height: 100%;
+  min-width: 1010px; /* обязательно указать минимальную ширину примерно на 10 пикселей шире контейнера*/
+  height: auto!important;
+  overflow: hidden;
+}
+.wraper:after {
+  content: "";
+  height: 239px;
+  display: block;
 }
 // левая колонка
 .left-column{
@@ -294,13 +304,13 @@ $color:#5c7b98;
   width: 205px;
   min-height: 204px;
 }
-.two__img{
+.two__pic{
   display: inline-block;
   width: 82px;
   height: 90px;
   position: relative;
 }
-.img{
+.pic__img{
   display: block;
   position: absolute;
   top: 0;
@@ -349,9 +359,12 @@ $color:#5c7b98;
 }
 .footer-wraper{
   width: 1000px;
+  height: 239px;
   margin: 0 auto;
+  //margin-top: -239px;
   position: relative;
 }
+
 .bootom-logo{
   width: 139px;
   height: 39px;
