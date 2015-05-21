@@ -60,4 +60,5 @@ $(document).ready(function(){
         .qtip('toggle', false);
     });
     $('input, textarea').placeholder();
+    $('select').styler();
 });

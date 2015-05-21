@@ -55,7 +55,8 @@
 .call {
   background: #f4f6f9;
   padding: 14px 10px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  width: 212px; }
 
 .calling {
   font-family: "ElektraLightPro-Bold";
@@ -90,7 +91,8 @@
   color: #5c7b98;
   line-height: 14px;
   width: 85px;
-  display: inline-block; }
+  display: inline-block;
+  margin-right: 16px; }
 
 .call-date__selected {
   display: inline-block; }
@@ -100,8 +102,22 @@
   font-size: 12px;
   font-weight: 400;
   color: #5c7b98;
-  margin-left: 16px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  background: url("../img/select.png") #ffffff no-repeat right;
+  width: 48px;
+  height: 23px;
+  border: solid 1px #dae1eb; }
+
+.jq-selectbox__select-text {
+  font-family: "ElektraLightPro";
+  font-size: 12px;
+  font-weight: 400;
+  color: #5c7b98;
+  margin-top: 5px;
+  margin-left: 6px; }
+
+.jq-selectbox__select {
+  width: 25px; }
 
 .call__text {
   width: 202px;
@@ -109,6 +125,11 @@
   resize: none;
   margin-bottom: 15px;
   border: 1px solid #dae1eb; }
+
+.selector {
+  background: url("../img/select.png") #ffffff no-repeat right;
+  width: 50px;
+  height: 25px; }
 
 .submit, .reset {
   width: 90px;
@@ -163,6 +184,11 @@
   min-height: 25px;
   margin-left: 44px; }
 
+.contacts__phone {
+  font: 400 14px/20px "ElektraLightPro";
+  color: #5c7b98;
+  text-decoration: none; }
+
 .right-column {
   width: 740px;
   float: right; }
@@ -187,8 +213,7 @@
   position: absolute;
   top: 220px;
   width: 716px;
-  background: #626265;
-  opacity: 0.549;
+  background: rgba(0, 0, 0, 0.549);
   padding: 18px 0;
   padding-left: 24px; }
 
@@ -375,7 +400,7 @@
 .footer-about__list {
   display: inline-block;
   list-style: none;
-  width: 110px;
+  width: 115px;
   margin-right: 50px; }
 
 .about-list {
